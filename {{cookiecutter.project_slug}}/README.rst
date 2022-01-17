@@ -1,5 +1,5 @@
 #######################################
-{{ cookiecutter.project_slug }
+{{ cookiecutter.project_name }}
 #######################################
 
 {{ cookiecutter.description }}
@@ -7,6 +7,6 @@
 Credits
 #######
 
-* {{ cookiecutter.name }} <{{ cookiecutter.email }}>
+* {{ cookiecutter.author_name }} <{{ cookiecutter.email }}>
 * Created using fastapp (https://github.com/rbturnbull/fastapp)
 
