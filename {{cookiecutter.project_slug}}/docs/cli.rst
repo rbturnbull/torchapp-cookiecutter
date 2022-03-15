@@ -2,6 +2,6 @@
 Command Line Interface Reference
 ================================
 
-.. .. click:: crunch.client.main:typer_click_object
-..    :prog: crunch
-..    :nested: full
+.. click:: {{ cookiecutter.project_slug }}.apps:{{ cookiecutter.app_name }}.click
+   :prog: {{ cookiecutter.project_slug }}
+   :nested: full
