@@ -23,6 +23,8 @@ author = '{{ cookiecutter.author_name }}'
 
 # The full version, including alpha/beta/rc tags
 release = '{{ cookiecutter.version }}'
+# import importlib.metadata
+# release = importlib.metadata.version('{{ cookiecutter.project_slug }}')
 
 
 # -- General configuration ---------------------------------------------------

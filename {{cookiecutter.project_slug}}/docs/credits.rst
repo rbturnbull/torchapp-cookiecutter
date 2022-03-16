@@ -1,5 +1,5 @@
 =======================
-API Reference
+Credits
 =======================
 
 {{ cookiecutter.author_name }}
