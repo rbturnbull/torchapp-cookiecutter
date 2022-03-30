@@ -18,7 +18,8 @@ docs:
   artifacts:
     paths:
       - docshtml/
-  
+      - htmlcov/
+
 pages:
   stage: deploy
   image: alpine
@@ -26,6 +27,7 @@ pages:
     - docs
   script:
     - mv docshtml/ public/
+    - mv htmlcov/ public/coverage/
   artifacts:
     paths:
       - public
