@@ -6,6 +6,10 @@
 Welcome to {{ cookiecutter.project_name }}'s documentation!
 ===========================================================
 
+.. include:: ../README.rst
+   :start-after: start-badges
+   :end-before: end-badges
+
 {{ cookiecutter.description }}
 
 .. toctree::

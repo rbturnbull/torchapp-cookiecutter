@@ -2,6 +2,18 @@
 {{ cookiecutter.project_name }}
 ================================================================
 
+.. start-badges
+
+|fastapp badge| |black badge|
+
+.. |fastapp badge| image:: https://img.shields.io/badge/built%20with-fastapp-fuchsia.svg
+    :target: https://github.com/rbturnbull/fastapp
+    
+.. |black badge| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+    
+.. end-badges
+
 {{ cookiecutter.description }}
 
 Credits
