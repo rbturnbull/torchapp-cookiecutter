@@ -11,7 +11,10 @@ docs:
     - poetry install
     - poetry run pip install git+https://github.com/rbturnbull/fastapp.git # this is a hack because doing it through poetry causes a segfault for some reason
   script:
+    - poetry run coverage run -m pytest
+    - poetry run coverage html
     - poetry run sphinx-build -b html docs docshtml
+    - poetry run coverage report    
   artifacts:
     paths:
       - docshtml/
