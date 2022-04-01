@@ -23,6 +23,7 @@ class {{ cookiecutter.app_name }}(fa.FastApp):
         )
 
     def dataloaders(
+        self,
         inputs:Path = fa.Param(help="The input file."), 
         batch_size:int = fa.Param(default=32, help="The batch size."),
     ) -> DataLoaders:
