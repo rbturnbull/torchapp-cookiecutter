@@ -12,6 +12,5 @@
         "GPLv3",
         "Not open source"
     ],
-    "app_name": "{{ cookiecutter.project_name.title()|replace(' ', '')|replace('-', '')|replace('.', '')|trim() }}",
-    "black_formatter": "y"
+    "app_name": "{{ cookiecutter.project_name.title()|replace(' ', '')|replace('-', '')|replace('.', '')|trim() }}"
 }  
