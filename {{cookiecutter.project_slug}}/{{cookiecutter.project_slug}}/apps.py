@@ -9,6 +9,23 @@ class {{ cookiecutter.app_name }}(fa.FastApp):
     """
     {{ cookiecutter.description }}
     """
+    def dataloaders(
+        self,
+        inputs:Path = fa.Param(help="The input file."), 
+        batch_size:int = fa.Param(default=32, help="The batch size."),
+    ) -> DataLoaders:
+        """
+        Creates a FastAI DataLoaders object which {{ cookiecutter.app_name }} uses in training and prediction.
+
+        Args:
+            inputs (Path): The input file.
+            batch_size (int, optional): The number of elements to use in a batch for training and prediction. Defaults to 32.
+
+        Returns:
+            DataLoaders: The DataLoaders object.
+        """
+        raise NotImplemented("Dataloaders function not implemented yet.") 
+
     def model(
         self,
     ) -> nn.Module:
@@ -21,17 +38,3 @@ class {{ cookiecutter.app_name }}(fa.FastApp):
         raise NotImplemented("Model function not implemented yet.") 
         return nn.Sequential(
         )
-
-    def dataloaders(
-        self,
-        inputs:Path = fa.Param(help="The input file."), 
-        batch_size:int = fa.Param(default=32, help="The batch size."),
-    ) -> DataLoaders:
-        """
-        Creates a FastAI DataLoaders object which {{ cookiecutter.app_name }} uses in training and prediction.
-
-        Args:
-            inputs (Path): The input file.
-            batch_size (int): The number of elements to use in a batch for training and prediction. Defaults to 32.
-        """
-        raise NotImplemented("Dataloaders function not implemented yet.") 
