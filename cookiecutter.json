@@ -13,5 +13,6 @@
         "Not open source"
     ],
     "app_name": "{{ cookiecutter.project_name.title()|replace(' ', '')|replace('-', '')|replace('.', '')|trim() }}",
-    "coverage_gist": ""
+    "coverage_gist": "",
+    "github_user": ""
 }  
