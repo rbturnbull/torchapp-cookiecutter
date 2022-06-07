@@ -2,7 +2,6 @@
 from cookiecutter.main import cookiecutter
 from pathlib import Path
 
-TEMPLATE_DIRECTORY = str(Path(__file__).parent.parent)
 
 def test_cookiecutter(tmpdir):
     generate(
@@ -51,6 +50,7 @@ def test_cookiecutter(tmpdir):
 
 
 def generate(directory, context):
+    TEMPLATE_DIRECTORY = str(Path(__file__).parent.parent)
     cookiecutter(
         template=TEMPLATE_DIRECTORY,
         output_dir=str(directory),
