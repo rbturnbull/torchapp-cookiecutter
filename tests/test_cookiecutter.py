@@ -18,6 +18,7 @@ def test_cookiecutter(tmpdir):
         "test_app/.github/workflows",
         "test_app/docs/api.rst",
         "test_app/docs/credits.rst",
+        "test_app/CONTRIBUTING.rst",
         "test_app/.github/ISSUE_TEMPLATE",
         "test_app/.gitignore",
         "test_app/.github/workflows/docs.yml",
