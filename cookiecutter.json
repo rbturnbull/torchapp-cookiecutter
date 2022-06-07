@@ -12,6 +12,10 @@
         "GPLv3",
         "Not open source"
     ],
+    "code_of_conduct": [
+        "Contributor Covenant",
+        "None"
+    ],
     "app_name": "{{ cookiecutter.project_name.title()|replace(' ', '')|replace('-', '')|replace('.', '')|trim() }}",
     "coverage_gist": "",
     "github_user": ""
