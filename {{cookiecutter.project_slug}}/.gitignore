@@ -1,4 +1,9 @@
 docs/_build/
+wandb/*
+wandb*/*
+outputs/*
+*.out
+
 
 # From https://github.com/github/gitignore/blob/main/Python.gitignore
 # Byte-compiled / optimized / DLL files
