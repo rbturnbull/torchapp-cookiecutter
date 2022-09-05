@@ -1,11 +1,11 @@
 from pathlib import Path
 from torch import nn
 from fastai.data.core import DataLoaders
-import fastapp as fa
+import torchapp as fa
 from rich.console import Console
 console = Console()
 
-class {{ cookiecutter.app_name }}(fa.FastApp):
+class {{ cookiecutter.app_name }}(fa.TorchApp):
     """
     {{ cookiecutter.description }}
     """

@@ -16,6 +16,7 @@ Welcome to {{ cookiecutter.project_name }}'s documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   quickstart
    api
    cli
    credits

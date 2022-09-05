@@ -2,7 +2,7 @@
 Credits
 =======================
 
-{{ cookiecutter.author_name }}
-For more information contact: <{{ cookiecutter.email }}>
+.. include:: ../README.rst
+   :start-after: start-credits
+   :end-before: end-credits
 
-Created using fastapp (https://github.com/rbturnbull/fastapp).
