@@ -36,6 +36,7 @@ def test_cookiecutter(tmpdir):
         "test_app/.github/workflows/publish.yml",
         "test_app/docs/index.rst",
         "test_app/docs/make.bat",
+        "test_app/docs/quickstart.rst",
         "test_app/tests/conftest.py",
         "test_app/.coveragerc",
         "test_app/tests/test_apps.py",
