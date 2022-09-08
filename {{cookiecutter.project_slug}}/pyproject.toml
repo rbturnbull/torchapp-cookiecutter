@@ -5,6 +5,17 @@ description = "{{ cookiecutter.description }}"
 authors = ["{{ cookiecutter.author_name }} <{{ cookiecutter.email }}>"]
 license = "{{ cookiecutter.open_source_license }}"
 readme = "README.rst"
+repository = "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.project_slug }}/"
+documentation = "https://{{ cookiecutter.github_user }}.github.io/{{ cookiecutter.project_slug }}"
+homepage = "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.project_slug }}/"
+keywords = ["fastai", "torchapp", "pytorch", "deep learning", "command-line interface"]
+# For classifiers see https://pypi.org/classifiers/
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
