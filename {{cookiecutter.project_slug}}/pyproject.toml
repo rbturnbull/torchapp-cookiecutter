@@ -8,7 +8,7 @@ readme = "README.rst"
 repository = "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.project_slug }}/"
 documentation = "https://{{ cookiecutter.github_user }}.github.io/{{ cookiecutter.project_slug }}"
 homepage = "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.project_slug }}/"
-keywords = ["fastai", "torchapp", "pytorch", "deep learning", "command-line interface"]
+keywords = [""torchapp", "pytorch", "deep learning", "command-line interface"]
 # For classifiers see https://pypi.org/classifiers/
 classifiers = [
     "License :: OSI Approved :: Apache Software License",
@@ -18,22 +18,23 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.12"
-torchapp = "^0.1.29"
+python = ">=3.10,<3.13"
+torchapp = ">=0.4.13"
 
-[tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
-ipykernel = "^6.6.1"
-coverage = "^5.5"
-autopep8 = "^1.5.7"
-Sphinx = "^4.2.0"
-nbsphinx = "^0.8.7"
-sphinx-rtd-theme = "^1.0.0"
-sphinx-autobuild = "^2021.3.14"
-myst-parser = "^0.15.2"
-pre-commit = "^2.15.0"
-sphinx-copybutton = "^0.4.0"
-black = "^21.10b0"
+[tool.poetry.group.dev.dependencies]
+pytest = ">=6.2.5"
+ipython = ">=8.1.1"
+ipykernel = ">=6.6.1"
+coverage = ">=5.5"
+autopep8 = ">=1.5.7"
+Sphinx = ">=5.0.0"
+nbsphinx = ">=0.8.7"
+sphinx-rtd-theme = ">=1.0.0"
+sphinx-autobuild = ">=2021.3.14"
+myst-parser = ">=0.15.2"
+pre-commit = ">=2.15.0"
+sphinx-copybutton = ">=0.4.0"
+black = ">=21.10b0"
 sphinx-click = {git = "https://github.com/rbturnbull/sphinx-click.git"}
 
 [tool.pytest.ini_options]
@@ -48,3 +49,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 {{ cookiecutter.project_slug }} = "{{ cookiecutter.project_slug }}.apps:{{ cookiecutter.app_name }}.main"
+{{ cookiecutter.project_slug }}-tools = "{{ cookiecutter.project_slug }}.apps:{{ cookiecutter.app_name }}.tools"
