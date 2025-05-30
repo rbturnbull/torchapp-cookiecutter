@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "torchapp-cookiecutter"
 version = "0.1.0"
-description = "A cookiecutter project for generating torchapp projects. For more information see https://github.com/rbturnbull/torchapp."
+description = "A cookiecutter project for generating TorchApp projects. For more information see https://github.com/rbturnbull/torchapp."
 authors = ["Robert Turnbull <robert.turnbull@unimelb.edu.au>"]
 license = "Apache-2.0"
 
