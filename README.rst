@@ -4,7 +4,10 @@ torchapp-cookiecutter
 
 .. start-badges
 
-|testing badge| |torchapp badge| |docs badge| |black badge|
+|torchapp badge| |testing badge| |docs badge| |black badge|
+
+.. |torchapp badge| image:: https://img.shields.io/badge/MLOpps-torchapp-B1230A.svg
+    :target: https://rbturnbull.github.io/torchapp/
 
 .. |testing badge| image:: https://github.com/rbturnbull/torchapp-cookiecutter/actions/workflows/testing.yml/badge.svg
     :target: https://github.com/rbturnbull/torchapp-cookiecutter/actions
@@ -14,9 +17,6 @@ torchapp-cookiecutter
     
 .. |black badge| image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
-
-.. |torchapp badge| image:: https://img.shields.io/badge/MLOps-torchapp-fuchsia.svg
-    :target: https://github.com/rbturnbull/torchapp
     
 .. end-badges
 
