@@ -18,7 +18,7 @@
 .. |coverage badge| image:: https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/{{ cookiecutter.github_user }}/{{ cookiecutter.coverage_gist }}/raw/coverage-badge.json
     :target: https://{{ cookiecutter.github_user }}.github.io/{{ cookiecutter.project_slug }}/coverage/
 
-.. |torchapp badge| image:: https://img.shields.io/badge/MLOpps-torchapp-B1230A.svg
+.. |torchapp badge| image:: https://img.shields.io/badge/Torch-App-B1230A.svg
     :target: https://rbturnbull.github.io/torchapp/
     
 .. end-badges
