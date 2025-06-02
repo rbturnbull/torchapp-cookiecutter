@@ -6,7 +6,7 @@ torchapp-cookiecutter
 
 |torchapp badge| |testing badge| |docs badge| |black badge|
 
-.. |torchapp badge| image:: https://img.shields.io/badge/Torch-App-B1230A.svg
+.. |torchapp badge| image:: https://img.shields.io/badge/torch-app-B1230A.svg
     :target: https://rbturnbull.github.io/torchapp/
 
 .. |testing badge| image:: https://github.com/rbturnbull/torchapp-cookiecutter/actions/workflows/testing.yml/badge.svg
