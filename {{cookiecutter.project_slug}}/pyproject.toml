@@ -8,7 +8,7 @@ readme = "README.rst"
 repository = "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.project_slug }}/"
 documentation = "https://{{ cookiecutter.github_user }}.github.io/{{ cookiecutter.project_slug }}"
 homepage = "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.project_slug }}/"
-keywords = [""torchapp", "pytorch", "deep learning", "command-line interface"]
+keywords = ["torchapp", "pytorch", "deep learning", "command-line interface"]
 # For classifiers see https://pypi.org/classifiers/
 classifiers = [
     "License :: OSI Approved :: Apache Software License",
