@@ -27,15 +27,15 @@ jobs:
       - name: Install poetry
         run: pipx install poetry
 
-      - name: Initialise Python {% raw %} ${{ matrix.python-version }} {% endraw %}
+      - name: Initialise Python {% raw %}${{ matrix.python-version }}{% endraw %}
         uses: actions/setup-python@v5
         with:
-          python-version: {% raw %} ${{ matrix.python-version }} {% endraw %}
+          python-version: {% raw %}${{ matrix.python-version }}{% endraw %}
           cache: poetry
 
-      - name: Install dependencies for Python {% raw %} ${{ matrix.python-version }} {% endraw %}
+      - name: Install dependencies for Python {% raw %}${{ matrix.python-version }}{% endraw %}
         run: |
-          poetry env use "{% raw %} ${{ matrix.python-version }} {% endraw %}"
+          poetry env use "{% raw %}${{ matrix.python-version }}{% endraw %}"
           poetry install
 
       - name: Build Sphinx docs
